@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexitem felx-grow</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #heading{
+            text-align:center;
+            margin:2px;
+        }
+        #container{
+            height:500px;
+            width:600px;
+            background-color:lavender;
+            margin:5px;
+            border:3px solid;
+            display:flex;
+            
+        }
+        .box{
+            height:100px;
+            width:100px;
+            margin:5px;
+            padding:3px;
+            text-align:center;
+            border:3px solid;
+            flex-grow:2;
+        }
+        #box1{
+            background-color:lightpink;
+            order:3;
+        }
+        #box2{
+            background-color:lightskyblue;
+            order:4;
+        }
+        #box3{
+            background-color:lightcoral;
+            flex-grow:5;
+            order:1;
+        }
+        #box4{
+            background-color:lightgreen;
+            order:2;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Flexbox container</h1>
+    <div id="container">
+        <div id="box1" class="box">Item 1</div>
+        <div id="box2" class="box">Item 2</div>
+        <div id="box3" class="box">Item 3</div>
+        <div id="box4" class="box">Item 4</div>
+    </div>
+</body>
+</html>

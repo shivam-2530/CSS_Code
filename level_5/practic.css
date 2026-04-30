@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color: aqua;
+    padding: 5px;
+}
+nav a{
+    margin-left: 50px;
+    text-decoration:none;
+    padding: 5px;
+    font-size:25px;
+}
+#second{
+    height:50px;
+    width:50px;
+    background-color:green;
+    border-radius:50%;
+    margin: 5px;
+}
+.box{
+    height:100px;
+    width:100px;
+    background-color:deeppink;
+    margin:5px;
+    text-align:center;
+    display: inline-block;
+}
+#contanier{
+    border:3px solid;
+}
+#box4{
+    right:10px;
+    position:fixed;
+}
+footer{
+    bottom:0px;
+    position:fixed;
+    background-color:darkorange
+}

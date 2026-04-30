@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox flex_wrap</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #heading{
+            text-align:center;
+            margin:2px;
+        }
+        #container{
+            height:300px;
+            width:300px;
+            margin:5px;
+            border:3px solid black;
+            display:flex;
+            flex-wrap:wrap-reverse;
+        }
+        .box{
+            height:100px;
+            width:100px;
+            margin:5px;
+        }
+        #box1{
+            background-color:aqua;
+        }
+        #box2{
+            background-color:lightcoral;
+        }
+        #box3{
+            background-color:lightpink;
+        }
+        #box4{
+            background-color:lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Flexbox container</h1>
+    <div id="container">
+        <div id="box1" class="box">Item 1</div>
+        <div id="box2" class="box">Item 2</div>
+        <div id="box3" class="box">Item 3</div>
+        <div id="box4" class="box">Item 4</div>
+    </div>
+</body>
+</html>

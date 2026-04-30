@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox justifiy-content</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #header{
+            text-align:center;   
+        }
+        #container{
+            height:500px;
+            width:600px;
+            margin:5px;
+            padding:3px;
+            border:3px solid black;
+            background-color:lavender;
+            display:flex;
+            justify-content:space-evenly;
+        }
+        .box{
+            height:100px;
+            width:100px;
+            margin:5px;
+            border:2px solid black;
+        }
+        #box1{
+            background-color:aqua;
+        }
+        #box2{
+            background-color:lightcoral;
+        }
+        #box3{
+            background-color:lightsalmon;
+        }
+        #box4{
+            background-color:lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Flexbox content</h1>
+    <div id="container">
+        <div id="box1" class="box">Item 1</div>
+        <div id="box2" class="box">Item 2</div>
+        <div id="box3" class="box">Item 3</div>
+        <div id="box4" class="box">Item 4</div>
+    </div>
+</body>
+</html>
